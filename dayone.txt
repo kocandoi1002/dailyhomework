@@ -1,0 +1,4 @@
+1. Sử dụng github chúng ta có thể code 1 project trên nhiều máy được vì:
++github là một git sever nên ta có thể update hoặc dowload các file code trong project của mình trên github từ đó có thể làm việc trên nhiều máy khác nhau
+2.Ta có thể sử dụng lệnh :"git pust origin master" trên gitbash để cật nhật những commit của mình trên máy tính cá nhâncủa mình.
+3. Ta có thể sự dụng lệnh :"git clone +url(link project trên github )để lấy những thay đổi mới nhât trên github .
