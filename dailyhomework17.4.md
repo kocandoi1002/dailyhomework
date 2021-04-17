@@ -3,7 +3,6 @@ Mọi người cho biết tác dụng của folder này là gì?
 Giả sử, nếu xoá hoặc di chuyển folder này sang 1 thư mục khác thì điều gì sẽ xảy ra.
 Giải thích tại sao?
 BL:
-Khi ta khởi tại git (git init), git sẽ tạo 1 folder .git.
- Folder này dùng dể lưu dữ trạng thái cũng như tất cả dữ liệu củatất cả cái file trong thư mục đó.
- Khi ta xóa hoặc chuyển folder này thì sẽ không thể sử dụng các câu lệnh của git.
- Bắt buộcta phải khởi tạo git mới $ git init khi đó t mới có thể sử dụng git trong file này.
++Tác dụng của folder .git: khiến project trở thành một git repository, là thư mục con chứa thông tin git lưu trữ và thao tác: server liên kết với project, lịch sử các lần commit, cấu trúc toàn bộ repository, tập các script chạy tự động trước hoặc sau khi git thực hiện các câu lệnh quan trọng như commit, push,...
++Giả sử, nếu xoá hoặc di chuyển folder này sang 1 thư mục khác, thì dữ liệu trong thư mục gốc vẫn giữ nguyên, nhưng không thể thực hiện các lệnh git đối với thư mục này nữa.
++Bởi vì, xóa hoặc di chuyển folder .git sang thư mục khác, sẽ xóa hết các thông tin về các liên kết, thao tác và các phiên bản đã commit mà git lưu trữ => thư mục cũ không còn là một git repository.
